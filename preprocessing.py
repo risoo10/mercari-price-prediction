@@ -18,10 +18,10 @@ data = data.drop(['categories', 'category_name'], 1)
 
 
 # Brand name
+data["name_and_brand"] = data["name"].map(str) + ' ' + data["brand_name"].map(str)
 vc = data["brand_name"].value_counts() < 5
 mask = pd.DataFrame(vc[vc])
 data.loc[data["brand_name"].isin(mask.index), "brand_name"] = "Other"
-data["name_and_brand"] = data["name"].map(str) + ' ' + data["brand_name"].map(str)
 data = data.drop("name", axis=1)
 
 print(data.head())
