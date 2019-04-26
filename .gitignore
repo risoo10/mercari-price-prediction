@@ -2,3 +2,9 @@ data/
 .idea/
 venv/
 notebooks/.ipynb_checkpoints/
+notebooks/train_preprocessed.gz
+notebooks/train_embeds_preprocessed.gz
+notebooks/train_embeds_preprocessed.csv
+notebooks/doc2vec/doc2vec-30ep.mdl.docvecs.vectors_docs_norm.npy
+notebooks/doc2vec/doc2vec-30ep.mdl.docvecs.vectors_docs.npy
+notebooks/doc2vec/doc2vec-30ep.mdl
