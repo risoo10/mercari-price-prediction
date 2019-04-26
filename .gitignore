@@ -4,3 +4,6 @@ venv/
 notebooks/.ipynb_checkpoints/
 *.npy
 *.mdl
+notebooks/train_preprocessed.gz
+notebooks/train_embeds_preprocessed.gz
+notebooks/train_embeds_preprocessed.csv
