@@ -4,7 +4,7 @@ import datetime
 
 data = pd.read_csv('data/train.tsv', sep="\t")
 data.set_index('train_id', inplace=True)
-TRAIN_SIZE = 600000
+TRAIN_SIZE = 800000
 data = data.iloc[:TRAIN_SIZE]
 
 # data.to_csv("train.csv.gz", compression="gzip")
@@ -64,7 +64,7 @@ print(f"ohe finish - {after}")
 print(f"took - {after - before}")
 
 
-data.to_csv('data/train_encoded.csv', sep="\t")
+# data.to_csv('data/train_encoded.csv', sep="\t")
 data.to_hdf('data/train_encoded.h5', key='df', mode='w')
 print(data.head())
 

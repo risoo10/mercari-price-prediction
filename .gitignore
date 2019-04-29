@@ -7,3 +7,8 @@ notebooks/.ipynb_checkpoints/
 notebooks/train_preprocessed.gz
 notebooks/train_embeds_preprocessed.gz
 notebooks/train_embeds_preprocessed.csv
+*.hdf5
+notebooks/y_validation.h5
+notebooks/y_train.h5
+notebooks/validation_final.h5
+notebooks/train_final.h5
