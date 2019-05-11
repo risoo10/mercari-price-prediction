@@ -8,7 +8,7 @@ Mercari is Japan’s biggest community-powered shopping application. Our moti-va
 The task of knowledge discovery lies in predicting the price for an item put into the market place based on its text and categorical attributes. We are goingto solve this task by using supervised regression.
 
 ## Data
-Data are not included in the repository and can be obtained from the Kaggle's website for Mercari Price Challange at(www.kaggle.com/c/mercari-price-suggestion-challenge)[https://www.kaggle.com/c/mercari-price-suggestion-challenge].
+Data are not included in the repository and can be obtained from the Kaggle's website for Mercari Price Challange at [https://www.kaggle.com/c/mercari-price-suggestion-challenge].
 
 ## Source code organization
 Source code is mainly written in Jupyter Notebooks.
