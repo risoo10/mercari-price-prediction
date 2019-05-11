@@ -12,3 +12,6 @@ notebooks/y_validation.h5
 notebooks/y_train.h5
 notebooks/validation_final.h5
 notebooks/train_final.h5
+notebooks/doc2vec.zip
+*.h5
+events.out.tfevents*
